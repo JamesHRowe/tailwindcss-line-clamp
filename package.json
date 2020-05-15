@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss-line-clamp",
+  "version": "1.0.2",
+  "description": "Tailwind CSS plugin to generate webkit line clamp utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "James Rowe",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}
