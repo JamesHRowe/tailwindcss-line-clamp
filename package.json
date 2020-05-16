@@ -22,6 +22,9 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
+    "jest": "^26.0.1",
+    "jest-matcher-css": "^1.1.0",
+    "postcss": "^7.0.30",
     "tailwindcss": "^1.4.6"
   }
 }

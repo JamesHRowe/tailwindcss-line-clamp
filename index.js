@@ -4,7 +4,7 @@ const plugin = require("tailwindcss/plugin");
 // const log = getLogger({ name: "line-clamp" });
 
 module.exports = plugin(
-  function lineClamp({ addUtilities, theme, e, variants }) {
+  function ({ addUtilities, theme, e, variants }) {
     const utilities = _.map(theme("lineClamp"), (value, key) => {
       return {
         [`.${e(`clamp-${key}`)}`]: {
