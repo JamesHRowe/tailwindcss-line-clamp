@@ -6,6 +6,11 @@
   "scripts": {
     "test": "jest"
   },
+  "homepage": "https://github.com/JamesHRowe/tailwindcss-line-clamp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamesHRowe/tailwindcss-line-clamp"
+  },
   "author": "James Rowe",
   "license": "MIT",
   "dependencies": {
