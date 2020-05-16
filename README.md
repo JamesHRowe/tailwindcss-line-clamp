@@ -54,7 +54,7 @@ This will generate the following utilities:
 
 ## Variants
 
-By default, no variants are generated for these utilities. If you would like them, modify the `lineClamp` in the variants section of your `tailwind.config.js` file.
+By default, no variants are generated for these utilities. If you would like them, modify `lineClamp` in the variants section of your `tailwind.config.js` file.
 
 ```js
 {
