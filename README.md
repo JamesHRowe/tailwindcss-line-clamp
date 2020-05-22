@@ -66,6 +66,6 @@ By default, no variants are generated for these utilities. If you would like the
 
 ## Browser Support
 
-Due to `-webkit-line-clamp` not having wide browser support you may need to pair this plugin with a JS polyfill. I would recommend [webkit-line-clamp](https://github.com/LeMarck/webkit-line-clamp).
+`-webkit-line-clamp` is not supported in ie11. If you need to accomodate these users you may need to reach for a JS or server-side solution.
 
 Can I use: [-webkit-line-clamp](https://caniuse.com/#feat=css-line-clamp)

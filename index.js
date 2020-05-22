@@ -1,7 +1,5 @@
 const _ = require("lodash");
 const plugin = require("tailwindcss/plugin");
-// const getLogger = require("webpack-log");
-// const log = getLogger({ name: "line-clamp" });
 
 module.exports = plugin(
   function ({ addUtilities, theme, e, variants }) {
