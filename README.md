@@ -22,7 +22,7 @@ yarn add tailwindcss-line-clamp -D
     }
   },
   plugins: [
-    require('tailwindcss-line-clamp')
+    require('tailwindcss-line-clamp'),
   ],
 }
 ```
@@ -59,7 +59,7 @@ By default, no variants are generated for these utilities. If you would like the
 ```js
 {
   variants: {
-    lineClamp: ["responsive"];
+    lineClamp: ["responsive"],
   }
 }
 ```
