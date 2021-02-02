@@ -22,7 +22,7 @@ yarn add tailwindcss-line-clamp -D
     }
   },
   plugins: [
-    require('tailwindcss-line-clamp')
+    require('tailwindcss-line-clamp'),
   ],
 }
 ```
